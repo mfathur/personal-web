@@ -1,7 +1,17 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+  <the-main>
+      <router-view/>
+  </the-main>
+  <!-- <router-view/> -->
 </template>
+
+<script>
+import TheMain from '@/layouts/main.vue';
+
+export default {
+  name: 'the-app',
+  components: {
+    TheMain,
+  },
+};
+</script>

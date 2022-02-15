@@ -8,7 +8,7 @@
 @tailwind utilities;
 
 @layer base {
-    p, h1, h2, h3, h4, h5, h6 {
-        color: @apply bg-haiti;
+    body {
+        background-color: #0E1630;
     }
 }

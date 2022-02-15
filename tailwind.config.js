@@ -7,7 +7,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        haiti: '#0E1630',
+        'haiti-700': '#0E1630',
+        'haiti-500': '#1E2A4F',
       },
     },
   },

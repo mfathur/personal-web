@@ -9,7 +9,7 @@
         <div class="block w-full md:w-auto" id="mobile-menu">
         <ul class="flex flex-col mt-4 font-medium text-white md:flex-row md:space-x-8 md:mt-3 md:text-sm md:font-bold">
                 <li>
-                    <router-link to="/" class="block py-2 pl-3 pr-4 rounded bg-haiti-500 md:bg-transparent" aria-current="page">Home</router-link>
+                    <router-link to="/" class="block py-2 pl-3 pr-4 rounded md:bg-transparent" aria-current="page">Home</router-link>
                 </li>
                 <li>
                     <router-link to="/" class="block py-2 pl-3 pr-4">About</router-link>

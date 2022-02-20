@@ -1,20 +1,16 @@
 <template>
-  <div class="items-center justify-around text-white md:flex home">
-    <div class="ml-4 text-center md:text-left">
-      <h2 class="text-lg font-bold md:text-3xl">Hi, I'm {{getProfile.name}} </h2>
-      <h2 class="pt-3 sm:text-base md:text-2xl">{{getProfile.job}}</h2>
-    </div>
-    <img src="./../assets/images/myphoto-home.png" alt="My-photo" class="pb-8 px-7 md:px-0">
-  </div>
+  <intro/>
+  <div class="mt-20 md:mt-60"/>
+  <about-me/>
 </template>
 
 <script>
 // @ is an alias to /src
-import profileMapGetters from '@/mixins/profile';
+import AboutMe from '@/components/AboutMe.vue';
+import Intro from '@/components/Intro.vue';
 
 export default {
   name: 'Home',
-  components: {},
-  mixins: [profileMapGetters],
+  components: { AboutMe, Intro },
 };
 </script>

@@ -4,6 +4,8 @@ const profileData = {
   name: data.name,
   job: data.job,
   imgProfileUrl: data.img_profile_url,
+  overview: data.overview,
+  skills: data.skills,
 };
 
 export default profileData;

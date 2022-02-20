@@ -1,5 +1,5 @@
 <template>
-    <div class="items-center content-center font-bold text-white md:mx-28">
+    <section class="items-center content-center font-bold text-white md:mx-28">
         <h2 class="text-lg text-center md:text-4xl ">About me</h2>
         <div class="items-center mt-8 align-middle md:flex">
             <img src="./../assets/images/myphoto-aboutme.png" alt="My photo" class="hidden md:block">
@@ -11,7 +11,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>

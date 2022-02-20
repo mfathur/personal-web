@@ -2,7 +2,6 @@
   <the-main>
       <router-view/>
   </the-main>
-  <!-- <router-view/> -->
 </template>
 
 <script>

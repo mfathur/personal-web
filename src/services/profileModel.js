@@ -5,7 +5,7 @@ const profileData = {
   job: data.job,
   imgProfileUrl: data.img_profile_url,
   overview: data.overview,
-  skills: data.skills,
+  origin: data.origin,
 };
 
 export default profileData;

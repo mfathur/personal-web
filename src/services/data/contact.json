@@ -1,0 +1,32 @@
+[
+    {
+        "media":"email",
+        "link": "mfathur17@gmail.com",
+        "icon": ""
+    },
+    {
+        "media":"facebook",
+        "link": "",
+        "icon": ""
+    },
+    {
+        "media":"linkedin",
+        "link": "",
+        "icon": ""
+    },
+    {
+        "media":"instagram",
+        "link": "",
+        "icon": ""
+    },
+    {
+        "media":"github",
+        "link": "",
+        "icon": ""
+    },
+    {
+        "media":"gitlab",
+        "link": "",
+        "icon": ""
+    }
+]

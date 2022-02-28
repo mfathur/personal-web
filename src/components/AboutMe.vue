@@ -6,7 +6,7 @@
             <div class="mx-8 mt-8 text-left md:ml-14">
                 <h4 class="text-sm md:text-lg">{{getProfile.overview}}</h4>
                 <h3 class="mt-10 mb-8 text-lg text-center md:text-2xl md:text-left">Skills:</h3>
-                <div class="flex flex-row flex-wrap justify-around md:space-x-8 md:justify-start " v-for="(skill ,index) in getProfile.skills" :key="index">
+                <div class="flex flex-row flex-wrap justify-around md:space-x-8 md:justify-start " v-for="(skill ,index) in getSkills" :key="index">
                     <img v-bind:src="skill.image_url" @error="skill.name" class="mb-6 w-14 h-14">
                 </div>
             </div>
@@ -16,10 +16,11 @@
 
 <script>
 import profileMapGetters from '@/mixins/profile';
+import skillsMapGetters from '@/mixins/skill';
 
 export default {
   name: 'AboutMe',
-  mixins: [profileMapGetters],
+  mixins: [profileMapGetters, skillsMapGetters],
 };
 
 </script>

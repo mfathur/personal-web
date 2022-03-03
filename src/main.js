@@ -1,7 +1,7 @@
 import { createApp } from 'vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faEnvelope, faMapMarker } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faMapMarker, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebookSquare,
   faLinkedinIn,
@@ -13,7 +13,7 @@ import router from './router';
 import store from './store';
 import './assets/tailwind.css';
 
-library.add(faEnvelope, faMapMarker, faFacebookSquare, faLinkedinIn, faInstagram, faGithub);
+library.add(faArrowRight, faEnvelope, faMapMarker, faFacebookSquare, faLinkedinIn, faInstagram, faGithub);
 
 createApp(App)
   .use(store)

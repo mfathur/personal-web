@@ -3,6 +3,8 @@
   <div class="mt-20 md:mt-60"/>
   <about-me/>
   <div class="mt-20 md:mt-60"/>
+  <projects />
+  <div class="mt-20 md:mt-60"/>
   <contact-me/>
 </template>
 
@@ -10,10 +12,16 @@
 // @ is an alias to /src
 import AboutMe from '@/components/AboutMe.vue';
 import Intro from '@/components/Intro.vue';
-import ContactMe from '../components/ContactMe.vue';
+import ContactMe from '@/components/ContactMe.vue';
+import Projects from '@/components/Projects.vue';
 
 export default {
   name: 'Home',
-  components: { AboutMe, Intro, ContactMe },
+  components: {
+    AboutMe,
+    Intro,
+    ContactMe,
+    Projects,
+  },
 };
 </script>

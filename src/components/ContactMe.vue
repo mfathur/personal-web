@@ -12,10 +12,10 @@
             <h4 class="p-2 text-lg">{{getProfile.origin}}</h4>
           </div>
         <div class="mt-8 space-x-8 text-center md:text-left">
-          <fa :icon="['fab','instagram']" class="text-4xl text-haiti-500 hover:text-white" @click="openUrl('https://www.instagram.com/mfathoerr_/')"/>
-          <fa :icon="['fab','facebook-square']" class="text-4xl text-haiti-500 hover:text-white" @click="openUrl('https://www.facebook.com/profile.php?id=100013550419114')"/>
-          <fa :icon="['fab','github']" class="text-4xl text-haiti-500 hover:text-white" @click="openUrl('https://github.com/mfathur/')"/>
-          <fa :icon="['fab','linkedin-in']" class="text-4xl text-haiti-500 hover:text-white" @click="openUrl('https://www.linkedin.com/in/mfathoer/')"/>
+          <fa :icon="['fab','instagram']" class="text-4xl cursor-pointer text-haiti-500 hover:text-white" @click="openUrl('https://www.instagram.com/mfathoerr_/')"/>
+          <fa :icon="['fab','facebook-square']" class="text-4xl cursor-pointer text-haiti-500 hover:text-white" @click="openUrl('https://www.facebook.com/profile.php?id=100013550419114')"/>
+          <fa :icon="['fab','github']" class="text-4xl cursor-pointer text-haiti-500 hover:text-white" @click="openUrl('https://github.com/mfathur/')"/>
+          <fa :icon="['fab','linkedin-in']" class="text-4xl cursor-pointer text-haiti-500 hover:text-white" @click="openUrl('https://www.linkedin.com/in/mfathoer/')"/>
         </div>
       </div>
       <div class="w-full p-4 mt-8 md:ml-4 rounded-2xl bg-haiti-500 md:mt-0">

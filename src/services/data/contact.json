@@ -1,32 +1,22 @@
 [
     {
-        "media":"email",
-        "link": "mfathur17@gmail.com",
-        "icon": ""
-    },
-    {
         "media":"facebook",
-        "link": "",
+        "link": "https://www.facebook.com/profile.php?id=100013550419114",
         "icon": ""
     },
     {
         "media":"linkedin",
-        "link": "",
+        "link": "https://www.linkedin.com/in/mfathoer/",
         "icon": ""
     },
     {
         "media":"instagram",
-        "link": "",
-        "icon": ""
+        "link": "https://www.instagram.com/mfathoerr_/",
+        "icon": "['fab','instagram']"
     },
     {
         "media":"github",
-        "link": "",
-        "icon": ""
-    },
-    {
-        "media":"gitlab",
-        "link": "",
+        "link": "https://github.com/mfathur/",
         "icon": ""
     }
 ]

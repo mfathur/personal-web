@@ -15,12 +15,12 @@
 </template>
 
 <script>
-import profileMapGetters from '@/mixins/profile';
-import skillsMapGetters from '@/mixins/skill';
+import profileMixin from '@/mixins/profile';
+import skillsMixin from '@/mixins/skill';
 
 export default {
   name: 'AboutMe',
-  mixins: [profileMapGetters, skillsMapGetters],
+  mixins: [profileMixin, skillsMixin],
 };
 
 </script>

@@ -9,10 +9,10 @@
 </template>
 
 <script>
-import profileMapGetters from '@/mixins/profile';
+import profileMixin from '@/mixins/profile';
 
 export default {
   name: 'Intro',
-  mixins: [profileMapGetters],
+  mixins: [profileMixin],
 };
 </script>

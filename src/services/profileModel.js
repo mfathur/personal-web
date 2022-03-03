@@ -6,6 +6,7 @@ const profileData = {
   imgProfileUrl: data.img_profile_url,
   overview: data.overview,
   origin: data.origin,
+  email: data.email,
 };
 
 export default profileData;

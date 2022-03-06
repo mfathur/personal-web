@@ -1,4 +1,4 @@
-name: Deploy
+name: Deploy to github page
 
 on:
   push:
@@ -10,48 +10,23 @@ on:
 
 jobs:
   deploy:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+      group: ${{github.workflow}}-${{github.ref}}    
     steps:
-      - name: Init Checkout
+      - name: Init checkout
         uses: actions/checkout@v2
-
-      - name: Setup Node
+      
+      - name: Setup node
         uses: actions/setup-node@v2
         with:
-          node-version: '16'
-          cache: 'yarn'
-
-      - name: Get Cache
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
-      - name: Check Yarn Cache
-        uses: actions/cache@v2
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
-      - name: Check NodeModules Cache
-        uses: actions/cache@v2
-        id: cache-node-modules
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-nodemodules-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-nodemodules-
-      - name: Yarn install
-        if: steps.yarn-cache.outputs.cache-hit != 'true' || steps.cache-node-modules.outputs.cache-hit != 'true'
-        run: |
-          yarn policies set-version
-          yarn
+          node-version: '14'
+          cache: 'npm'
+      
       - name: Build Site
         run: |
-          yarn policies set-version
-          yarn build
+          npm build
+          
       - name: Deploy Site
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}

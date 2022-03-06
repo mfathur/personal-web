@@ -1,5 +1,5 @@
 <template>
-    <div class="px-12 text-white">
+    <div class="px-12 pt-20 text-white">
         <h1 class="text-4xl font-bold text-center md:text-left">{{projectById.name}}</h1>
         <div class="flex items-center my-8 md:items-stretch">
             <div class="mr-4 ">

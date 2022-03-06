@@ -2,19 +2,19 @@
     {
         "id": 1,
         "name": "PetaSuara",
-        "image_url": "asdasd",
+        "image_url": "https://user-images.githubusercontent.com/54427272/156946363-212465a8-6ca6-494e-8e48-439098d92608.png",
         "description": "Android app resemble with google map, but specific for visually impaired person"
     },
     {
         "id": 2,
         "name": "Fyrbel",
-        "image_url": "asdasd",
+        "image_url": "https://user-images.githubusercontent.com/54427272/156945888-3c550169-fbcf-4072-b641-ced43fe08a59.png",
         "description": "Android app that makes it easy for students to find the closest and best tutor in their location"
     },
     {
         "id": 3,
         "name": "Motorcycle Remote",
-        "image_url": "asdasd",
+        "image_url": "https://user-images.githubusercontent.com/54427272/156946047-e5199674-d9aa-4cf0-ae19-2ead3ef983e1.png",
         "description": "Making the motorcycle can be controlled with a smartphone, such as turning on/ off the engine and contact."
     }
 ]

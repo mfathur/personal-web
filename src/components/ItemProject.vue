@@ -1,6 +1,6 @@
 <template>
- <div class="w-full overflow-hidden bg-white rounded-lg shadow-lg md:max-w-sm ">
-  <img class="w-full" src="{{imageUrl}}" alt="{{title}}">
+ <div class="w-full overflow-hidden bg-white rounded-lg shadow-lg center md:max-w-sm">
+  <img class="w-full h-72" :src="imageUrl" :alt="title">
   <div class="px-6 py-4">
     <h4 class="mb-2 text-xl font-bold text-black">{{title}}</h4>
     <p class="text-base font-medium text-gray-700">{{description}}</p>

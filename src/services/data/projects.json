@@ -2,19 +2,19 @@
     {
         "id": 1,
         "name": "PetaSuara",
-        "image_url": "",
-        "description": "lorem ipsum"
+        "image_url": "asdasd",
+        "description": "Android app resemble with google map, but specific for visually impaired person"
     },
     {
         "id": 2,
         "name": "Fyrbel",
-        "image_url": "",
-        "description": "lorem ipsum"
+        "image_url": "asdasd",
+        "description": "Android app that makes it easy for students to find the closest and best tutor in their location"
     },
     {
         "id": 3,
         "name": "Motorcycle Remote",
-        "image_url": "",
-        "description": "lorem ipsum"
+        "image_url": "asdasd",
+        "description": "Making the motorcycle can be controlled with a smartphone, such as turning on/ off the engine and contact."
     }
 ]

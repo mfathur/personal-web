@@ -25,8 +25,10 @@ export default {
     sendEmail() {
       emailjs.sendForm('service_z1uurti', 'template_do36qzk', this.$refs.form, 'xx-G8RLGLMEEZt5LR').then((response) => {
         console.log('Success', response.status, response.text);
+        this.$notify('Email sent');
       }).catch((error) => {
         console.log('Error', error);
+        this.$notify({ type: 'error', text: 'Email not sent' });
       });
 
       this.name = '';

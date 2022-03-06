@@ -1,5 +1,6 @@
 <template>
   <the-main>
+      <notifications position="bottom right"/>
       <router-view/>
   </the-main>
 </template>

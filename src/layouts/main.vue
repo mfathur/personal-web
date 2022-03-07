@@ -3,7 +3,7 @@
         <the-nav />
     </header>
     <body>
-        <slot />
+        <slot class="pt-20"/>
     </body>
      <the-footer/>
 </template>
